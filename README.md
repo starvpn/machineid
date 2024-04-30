@@ -4,7 +4,7 @@
 
 … because sometimes you just need to reliably identify your machines.
 
-[![GoDoc](https://godoc.org/github.com/denisbrodbeck/machineid?status.svg)](https://godoc.org/github.com/denisbrodbeck/machineid) [![Go Report Card](https://goreportcard.com/badge/github.com/denisbrodbeck/machineid)](https://goreportcard.com/report/github.com/denisbrodbeck/machineid)
+[![GoDoc](https://godoc.org/github.com/starvpn/machineid?status.svg)](https://godoc.org/github.com/starvpn/machineid) [![Go Report Card](https://goreportcard.com/badge/github.com/starvpn/machineid)](https://goreportcard.com/report/github.com/starvpn/machineid)
 
 ## Main Features
 
@@ -18,13 +18,13 @@
 Get the library with
 
 ```bash
-go get github.com/denisbrodbeck/machineid
+go get github.com/starvpn/machineid
 ```
 
 You can also add the cli app directly to your `$GOPATH/bin` with
 
 ```bash
-go get github.com/denisbrodbeck/machineid/cmd/machineid
+go get github.com/starvpn/machineid/cmd/machineid
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ package main
 import (
   "fmt"
   "log"
-  "github.com/denisbrodbeck/machineid"
+  "github.com/starvpn/machineid"
 )
 
 func main() {
@@ -55,7 +55,7 @@ package main
 import (
   "fmt"
   "log"
-  "github.com/denisbrodbeck/machineid"
+  "github.com/starvpn/machineid"
 )
 
 func main() {
@@ -113,7 +113,7 @@ import (
   "crypto/hmac"
   "crypto/sha256"
   "fmt"
-  "github.com/denisbrodbeck/machineid"
+  "github.com/starvpn/machineid"
 )
 
 const appKey = "WowSuchNiceApp"
